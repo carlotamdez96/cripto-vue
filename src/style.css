@@ -7,14 +7,13 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../src/assets/img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     font-size: 2rem;
-    font-weight: 500;
 }
 .contenedor {
     max-width: 80rem;
@@ -78,7 +77,6 @@ body {
 
 .contenedor-resultado h2 {
     text-align: center;
-    font-family: 'Outfit', sans-serif;
 }
 
 .resultado {
