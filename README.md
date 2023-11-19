@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# CryptoApp
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Descripción
 
-## Recommended IDE Setup
+CryptoApp es una aplicación web sencilla construida con Vue 3 y Vite que utiliza una API externa para obtener cotizaciones de criptomonedas. La aplicación consta de tres componentes principales y destaca el uso correcto de una API externa y la modularización del código a través de componentes.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Funcionalidades
+
+- **Cotizaciones en Tiempo Real:** La aplicación utiliza una API externa de cotización de criptomonedas para mostrar información en tiempo real sobre diversas monedas digitales.
+
+- **Organización en Componentes:** El código se encuentra organizado en tres componentes principales:
+  1. **Alerta:** Componente para mostrar mensajes de alerta al usuario.
+  2. **Cotizacion:** Componente que presenta la información detallada de una cotización.
+  3. **Spinner:** Componente que indica la carga o procesamiento de datos.
+
+## Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/carlotamdez96/CryptoApp.git
+cd CryptoApp
+npm install
+npm run dev
